@@ -1,0 +1,20 @@
+{
+  "name": "Search in Stackoverflow",
+  "description": "Shortcut to search quickly in StackOverFlow",
+  "version": "1.0",
+  "applications": {
+      "gecko": {
+          "strict_min_version": "52.0a1"
+      }
+  },
+  "omnibox": {
+      "keyword": "sof"
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "permissions": [
+      "tabs"
+  ],
+  "manifest_version": 2
+}
